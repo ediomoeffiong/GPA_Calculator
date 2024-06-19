@@ -29,6 +29,7 @@ public class Main {
             Scanner scanName = new Scanner(System.in);
             courseName[i] = scanName.nextLine();
 
+
             System.out.print("Course " + (i + 1) + " Unit: ");
             Scanner scanUnit = new Scanner(System.in);
             courseUnit[i] = scanUnit.nextInt();
